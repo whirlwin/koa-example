@@ -1,22 +1,26 @@
 {
-  "name": "koa-example",
-  "version": "1.0.0",
-  "description": "",
-  "main": "app.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/whirlwin/koa-example.git"
-  },
-  "keywords": [
-    "koa"
-  ],
-  "author": "whirlwin",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/whirlwin/koa-example/issues"
-  },
-  "homepage": "https://github.com/whirlwin/koa-example"
+    "name": "koa-example",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "scripts": {
+        "start": "node --harmony app.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/whirlwin/koa-example.git"
+    },
+    "keywords": [
+        "koa"
+    ],
+    "author": "whirlwin",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/whirlwin/koa-example/issues"
+    },
+    "homepage": "https://github.com/whirlwin/koa-example",
+    "dependencies": {
+        "koa": "~0.17.0"
+    }
 }
